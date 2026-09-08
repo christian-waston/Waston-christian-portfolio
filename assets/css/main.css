@@ -1270,7 +1270,7 @@ img {
 }
 @media (max-width: 767px) {
   .main-hero-area .row { align-items: flex-start; }
-.main-hero-area .col-lg-4 { position: sticky; top: 90px; align-self: flex-start; }
+.main-hero-area .col-lg-4 { position: static; top: auto; align-self: flex-start; }
 .main-hero-area .list-group {
     display: none;
   }
@@ -1397,6 +1397,8 @@ img {
 }
 @media (max-width: 767px) {
   .main-hero-area .personal-contact-box {
+    position: static;
+    top: auto;
     margin-bottom: 50px;
   }
 }
